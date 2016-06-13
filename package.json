@@ -1,0 +1,28 @@
+{
+  "name": "measuresjs",
+  "version": "1.2.0",
+  "description": "a nodejs module to send metrics to measures services",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/globocom/measuresjs.git"
+  },
+  "keywords": [
+    "measure",
+    "metrics",
+    "logstash"
+  ],
+  "author": "Jonatas Pedraza <jonatas.pedraza@corp.globo.com>",
+  "license": "MIT License",
+  "dependencies": {
+    "async": "^1.4.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "mock-udp": "^0.1.1"
+  }
+}
