@@ -24,8 +24,14 @@ measures.metrify('mymetric', 1, doc, function (err) {
 });
 ```
 
+## Install Dependencies
+
+```
+$ yarn || yarn install || npm install
+```
+
 ## Tests
 
 ```
-$ npm test
+$ yarn test || npm test
 ```

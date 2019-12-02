@@ -1,3 +1,3 @@
-'use strict';
+"use strict";
 
-exports = module.exports = require('./lib/measuresjs.js');
+exports = module.exports = require("./lib/measures.js");
