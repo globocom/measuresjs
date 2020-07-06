@@ -35,3 +35,11 @@ $ yarn || yarn install || npm install
 ```
 $ yarn test || npm test
 ```
+
+## Debug
+
+This lib uses the [debug](https://www.npmjs.com/package/debug) module to log all internal errors and info. To enable this on debug needings set the DEBUG environment variable:
+
+```
+$ DEBUG=measuresjs:*
+```

@@ -1,6 +1,9 @@
 {
   "name": "measuresjs",
   "version": "1.2.0",
+  "engines": {
+    "node": ">=6.0"
+  },
   "description": "a nodejs module to send metrics to measures services",
   "main": "index.js",
   "scripts": {
@@ -18,7 +21,8 @@
   "author": "Jonatas Pedraza <jonatas.pedraza@corp.globo.com>",
   "license": "MIT License",
   "dependencies": {
-    "async": "^1.4.0"
+    "async": "^1.4.0",
+    "debug": "^4.1.1"
   },
   "devDependencies": {
     "chai": "^3.2.0",
